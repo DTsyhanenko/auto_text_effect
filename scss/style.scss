@@ -1,0 +1,28 @@
+@import './variables';
+@import './resets';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+section {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+input {
+    width: 60px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: $secondary-color;
+    color: $primary-color;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+
+    &:focus {
+        outline: none;
+    }
+}
